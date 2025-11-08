@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhananjaya's Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="files/style.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+  </ul>
+        <!-- Download Resume button placed inside collapsed area so it's reachable on mobile -->
+        <a href="files/My_Resume.pdf" class="btn btn-outline-success ms-lg-3 mt-2 mt-lg-0" download aria-label="Download Resume">Download Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+    <section id="home" class="hero-3d">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-8 text-center mx-auto text-lg-start">
+            <h1 class="hero-title mb-2">Hi, I'm <span class="hero-name">DHANANJAYA</span></h1>
+            <p class="lead hero-subtitle">Full Stack Developer — building modern, performant web applications.</p>
+            <div class="d-flex gap-3 mt-4 justify-content-center justify-content-lg-start">
+              <a href="#contact" class="btn btn-success btn-lg get-in-touch-btn">Get in Touch</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span class="dot"></span><span class="ms-2">Scroll to explore</span></div>
+    </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section bg-light">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <!-- Using project photo as About image -->
+          <img src="assets/projects/photo1.jpg" alt="Dhananjaya Photo" class="img-fluid rounded-circle about-photo">
+        </div>
+        <div class="col-md-8">
+          <p class="about-heading">Hi, I'm <span class="typewriter" aria-live="polite" aria-atomic="true"><span id="typewriter"></span></span><span class="type-caret" aria-hidden="true">|</span></p>
+          <p>I am a driven and enthusiastic developer who enjoys creating interactive and visually appealing web
+            applications. I love challenges, strive to grow my technical skills, and enjoy working with diverse
+            technologies and frameworks. I focus on building robust, maintainable code and delivering pixel-perfect
+            user interfaces. My work emphasizes performance, accessibility, and a smooth user experience.</p>
+          <div class="highlights d-flex gap-3 mt-3">
+            <div class="highlight text-center">
+              <div class="number display-6">10+</div>
+              <div class="label">Projects</div>
+            </div>
+            <div class="highlight text-center">
+              <div class="number display-6">2+</div>
+              <div class="label">Years</div>
+            </div>
+            <div class="highlight text-center">
+              <div class="number display-6">100%</div>
+              <div class="label">Dedication</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title fade-in">My Skills</h2>
+      <div class="row gy-4 mt-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="card skill-card h-100 text-center p-3 shadow-sm">
+            <div class="skill-icon">💻</div>
+            <h3>Programming Languages</h3>
+            <p class="mb-0">Java, C, Python, Dart, JavaScript, HTML, CSS</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card skill-card h-100 text-center p-3 shadow-sm">
+            <div class="skill-icon">⚙</div>
+            <h3>Frameworks</h3>
+            <p class="mb-0">Flutter, Django, Flask</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card skill-card h-100 text-center p-3 shadow-sm">
+            <div class="skill-icon">🗄</div>
+            <h3>Database Management</h3>
+            <p class="mb-0">Firebase, MongoDB, MySQL, SQLite</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card skill-card h-100 text-center p-3 shadow-sm">
+            <div class="skill-icon">🛠</div>
+            <h3>Tools</h3>
+            <p class="mb-0">Visual Studio Code, GitHub</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section bg-light">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+        <!-- Projects generated from assets/projects folder (moved flutter, mongodb, research to Certificates) -->
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="assets/projects/servehub.jpg" class="card-img-top" alt="servehub">
+            <div class="card-body">
+              <h5 class="card-title">ServeHub</h5>
+              <p class="card-text">Flutter Based Home service Booking app with role-based UI and Firebase realtime sync.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="assets/projects/library.jpg" class="card-img-top" alt="library">
+            <div class="card-body">
+              <h5 class="card-title">BookTrack</h5>
+              <p class="card-text">Django app for managing check-outs, returns, and reminders.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="assets/projects/employee.jpg" class="card-img-top" alt="employee">
+            <div class="card-body">
+              <h5 class="card-title">TeamTrack</h5>
+              <p class="card-text">Admin dashboard built with Django and SQLite for employee records.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="assets/projects/portfolio.jpg" class="card-img-top" alt="portfolio">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text">Responsive personal site showcasing projects and contact features.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="assets/projects/profile.jpg" class="card-img-top" alt="profile">
+            <div class="card-body">
+              <h5 class="card-title">Profile Finder</h5>
+              <p class="card-text">Django app that fetches GitHub profiles and displays repos and activity.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="assets/projects/game.jpg" class="card-img-top" alt="game">
+            <div class="card-body">
+              <h5 class="card-title">GameZone – Gaming Website</h5>
+              <p class="card-text">A platform built with Flask for browsing and playing casual games.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES SECTION -->
+  <section id="certificates" class="section">
+    <div class="container">
+      <h2>Certificates</h2>
+      <!-- Bootstrap Carousel -->
+      <div id="certCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Only show real certificate slides here. Removed placeholder cert1/2/3 items that had missing images. -->
+          <div class="carousel-item active">
+            <img src="assets/projects/flutter.jpg" class="d-block w-100 carousel-cert-img cert-clickable"
+              alt="Flutter Certificate">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Flutter Certification</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/projects/mongodb.jpg" class="d-block w-100 carousel-cert-img cert-clickable"
+              alt="MongoDB Certificate">
+            <div class="carousel-caption d-none d-md-block">
+              <p>MongoDB Certification</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/projects/research.jpg" class="d-block w-100 carousel-cert-img cert-clickable"
+              alt="Research Certificate">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Research Methodologies Certificate</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#certCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#certCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+    <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message:</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn btn btn-primary">Send Message</button>
+        <div id="status-message" class="mt-3" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer mt-5">
+    <div class="container text-center py-4">
+      <div class="social-icons mb-3">
+        <a href="https://www.linkedin.com/in/dhananjaya-poojary-232057379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer-icon"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/DHANANJAYA0013" target="_blank" class="footer-icon"><i class="fab fa-github"></i></a>
+        <a href="mailto:dhananjayad754@gmail.com" target="_blank" class="footer-icon"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/dhananjaya_poojary24?igsh=MXdtYzJnbm4weTV0cA==" target="_blank" class="footer-icon"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+      <div class="footer-quote mb-2" id ="ftext">
+        <pre>Made with <i class="fas fa-heart text-danger" aria-hidden="true"></i> By Dhananjaya</pre>
+        <em>Open for freelance and collaboration — available for new projects. <a href="#contact" class="text-white text-decoration-underline">Get in touch</a>.</em>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2025. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JS -->
+  <!-- Certificate modal (lightbox) -->
+  <div class="modal fade cert-modal" id="certModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="cert-modal-close btn btn-sm" data-bs-dismiss="modal"
+          aria-label="Close">&times;</button>
+        <div class="modal-body cert-modal-body">
+          <img id="certModalImg" src="" alt="Certificate" class="cert-modal-img img-fluid">
+        </div>
+        <div class="cert-zoom-controls text-center">
+          <button id="zoomOutBtn" class="btn btn-light btn-sm">-</button>
+          <button id="zoomResetBtn" class="btn btn-light btn-sm">Reset</button>
+          <button id="zoomInBtn" class="btn btn-light btn-sm">+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="files/script.js"></script>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("1LRcY7982yGR2XylP"); // Your public key
+    })();
+
+    const form = document.getElementById("contact-form");
+    const statusMessage = document.getElementById("status-message");
+    const submitBtn = form.querySelector(".submit-btn");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Sending...";
+
+      emailjs
+        .sendForm("service_wsypaot", "template_4ir6kbp", form)
+        .then(() => {
+          statusMessage.textContent = "✅ Message sent successfully!";
+          form.reset();
+        })
+        .catch(() => {
+          statusMessage.textContent = "❌ Error! Please try again later.";
+        })
+        .finally(() => {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Send Message";
+        });
+    });
+  </script>
+</body>
+
+</html>
